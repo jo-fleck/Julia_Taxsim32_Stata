@@ -1,4 +1,4 @@
-function taxsim32_stata(dir, df)
+function taxsim32_stata(dir, df) # (version: 1.0.0)
 
 CSV.write(dir * "taxsim32_input.csv", df); # Save Taxsim32 input as csv
 

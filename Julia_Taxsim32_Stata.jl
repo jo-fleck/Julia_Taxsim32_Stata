@@ -1,5 +1,5 @@
 
-### Taxsim32 Integration for Julia using taxsim32.ado (version: 1.0.0)
+### Taxsim32 Integration for Julia using taxsim32.ado
 
 # This file allows to prepare Taxsim32 input data in Julia and obtain imputed
 # tax information using a simple function call. Requires Stata.
@@ -32,7 +32,7 @@
 
 ## 2. Function Definition
 
-function taxsim32_stata(dir, df)
+function taxsim32_stata(dir, df) # (version: 1.0.0)
 
 CSV.write(dir * "taxsim32_input.csv", df); # Save Taxsim32 input as csv
 
