@@ -9,7 +9,7 @@
 
 To configure `taxsim32_stata.jl`, proceed as follows
 
-1. Open Stata and install `taxsim32.ado`. Instructions here: https://users.nber.org/~taxsim/taxsim32/stata-remote.html
+1. Open Stata, install `taxsim32.ado` and test it. Instructions here: https://users.nber.org/~taxsim/taxsim32/stata-remote.html
 
 2. Adjust the Julia system command to work on your machine (see `taxsim32_stata.jl` lines 15 and 16)
 - Mac: make sure the Stata executable is added to your PATH
