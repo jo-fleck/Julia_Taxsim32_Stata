@@ -5,7 +5,7 @@
 # tax information using a simple function call. Requires Stata.
 
 # Written and tested on MacOS (10.15.7 Catalina), Julia 1.5.1, Stata SE 14.0
-# Maintained here: https://github.com/jo-fleck/Julia_Taxsim32_Stata.jl
+# Maintained here: https://github.com/jo-fleck/Julia_Taxsim32_Stata
 # Copyright (C) 2020 Johannes Fleck; www.jofleck.com // Johannes.Fleck@eui.eu
 
 # My Julia Taxsim package will be available shortly (does not require Stata)
