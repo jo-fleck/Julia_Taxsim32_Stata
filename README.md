@@ -3,7 +3,7 @@
 
 "You provide the data, the [NBER TAXSIM program](https://taxsim.nber.org) returns the tax calculations from our server in seconds."
 
-`Julia_Taxsim32_Stata.jl` illustrates how to prepare Taxsim32 input data in Julia and obtain imputed tax information using a simple function call to `taxsim32_stata`. Requires Stata. Written and tested on MacOS (10.15.7 Catalina), Julia 1.5.1, Stata SE 14.0
+`Julia_Taxsim32_Stata.jl` illustrates how to prepare Taxsim32 input data in Julia and obtain imputed tax information using a simple function call to `taxsim32_stata.jl`. Requires Stata. Written and tested on MacOS (10.15.7 Catalina), Julia 1.5.1, Stata SE 14.0
 
 ## Instructions
 
