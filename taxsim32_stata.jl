@@ -3,7 +3,7 @@ function taxsim32_stata(dir, df) # (version: 1.0.0)
 CSV.write(dir * "taxsim32_input.csv", df); # Save Taxsim32 input as csv
 
 # Generate intermediate Stata do file: Loads data, calls taxsim32.ado, saves results
-tmp_do_file = ["clear all", "cd " * dir, "import delimited using " * dir * "taxsim32_input.csv", "taxsim32, full", "use " * dir * "taxsim_out.dta, clear", "export delimited " * dir * "taxsim32_output.csv"]
+tmp_do_file = ["clear all", "cd " * dir, "import delimited using " * dir * "taxsim32_input.csv", "taxsim32, full", "use " * dir * "taxsim_out.dta, clear", "export delimited " * dir * "taxsim32_output.csv, replace"]
 outfile = dir * "tmp_do_file.do"
 open(outfile, "w") do f
   for i in tmp_do_file
